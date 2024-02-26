@@ -1,0 +1,39 @@
+[
+    {
+      "description": "Test addition function with positive numbers",
+      "test": "addition",
+      "params": {
+        "a": 3,
+        "b": 5
+      },
+      "expectedResult": 8
+    },
+    {
+      "description": "Test addition function with negative numbers",
+      "test": "addition",
+      "params": {
+        "a": -3,
+        "b": -5
+      },
+      "expectedResult": -8
+    },
+    {
+      "description": "Test multiplication function",
+      "test": "multiplication",
+      "params": {
+        "a": 4,
+        "b": 6
+      },
+      "expectedResult": 24
+    },
+    {
+      "description": "Test division function",
+      "test": "division",
+      "params": {
+        "a": 10,
+        "b": 2
+      },
+      "expectedResult": 5
+    }
+  ]
+  
